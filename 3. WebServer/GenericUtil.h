@@ -5,7 +5,7 @@ public:
 	GenericUtil();
 	~GenericUtil();
 
-	static bool initWinSock();     // ³õÊ¼»¯Windows Socket
+	static bool initWinSock();     // åˆå§‹åŒ–Windows Socket
 
 };
 
