@@ -7,11 +7,11 @@ int main(int argc, char** args) {
 	char ip[16] = "127.0.0.1";
 	int port = 80;/*
 				  printf("Server IP? ");
-				  scanf("%s", ip);                   // ÊäÈëIP
+				  scanf("%s", ip);                   // è¾“å…¥IP
 				  printf("Server Port? ");
-				  scanf("%d", &port);				   // ÊäÈë¶Ë¿Ú
+				  scanf("%d", &port);				   // è¾“å…¥ç«¯å£
 				  printf("Web Root Directory? ");
-				  scanf("%s", rootDir);              // ÊäÈëWeb¸ùÄ¿Â¼
+				  scanf("%s", rootDir);              // è¾“å…¥Webæ ¹ç›®å½•
 				  */
 
 	HttpProtocol* httpServer = new HttpProtocol(ip, port, rootDir);
